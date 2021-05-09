@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectLayoutCollectionViewController" customModule="SplitView" customModuleProvider="target">
+            <connections>
+                <outlet property="contentContainerView" destination="hpQ-Os-niK" id="8ru-n3-KIj"/>
+                <outlet property="helpLabel" destination="F7I-k5-2M9" id="gRS-SX-s54"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="503"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpQ-Os-niK">
+                    <rect key="frame" x="0.0" y="0.0" width="406" height="503"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select more photos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7I-k5-2M9">
+                    <rect key="frame" x="114.5" y="239" width="177.5" height="25.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hpQ-Os-niK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5Nm-fF-1WC"/>
+                <constraint firstItem="F7I-k5-2M9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="H1q-bB-2rV"/>
+                <constraint firstItem="F7I-k5-2M9" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="HBb-eh-WTa"/>
+                <constraint firstAttribute="trailing" secondItem="hpQ-Os-niK" secondAttribute="trailing" id="JeV-PK-a42"/>
+                <constraint firstAttribute="bottom" secondItem="hpQ-Os-niK" secondAttribute="bottom" id="Kx0-7P-36R"/>
+                <constraint firstItem="hpQ-Os-niK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jjB-IZ-LAI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="21.09375"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
